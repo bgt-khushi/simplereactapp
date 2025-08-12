@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
+import "../Static/Gallery.css";
 
 const images = [
   { id: 1, src: "https://picsum.photos/300/200?random=1", title: "Image 1" },

@@ -1,0 +1,30 @@
+/* Background for the whole page */
+body {
+  background-color: #f8f9fa; /* light gray */
+  font-family: Arial, sans-serif;
+}
+
+/* Style for the gallery title (matching .text-center.mb-4) */
+.text-center.mb-4 {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 3px solid red; /* blue underline */
+  display: inline-block;
+}
+
+/* Center the underline by putting title inside container */
+.text-center {
+  text-align: center;
+}
+
+/* Card hover effect */
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px red;
+}
